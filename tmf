@@ -1,0 +1,3 @@
+#!/bin/zsh
+# print t $(mate_file)
+t $(mate_file)

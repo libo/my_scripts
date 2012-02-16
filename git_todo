@@ -1,0 +1,3 @@
+#!/bin/zsh
+# requires this alias git config --global alias.changes "diff-tree --name-status -r"
+git changes master.. | awk '{print $2 }' | xargs grep -i todo
