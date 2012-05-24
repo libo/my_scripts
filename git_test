@@ -1,0 +1,2 @@
+#!/bin/bash
+git changes master.. | awk '{print $2 }' | grep -i '^test' | xargs t

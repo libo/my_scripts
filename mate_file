@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 osascript <<EOF
 tell application "TextMate"
   return path of the first document
