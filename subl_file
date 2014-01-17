@@ -1,0 +1,5 @@
+#!/bin/zsh
+# tell application "Sublime Text 2" to return path of the first document
+osascript <<EOF
+  tell application "Textmate" to return path of the document 1
+EOF
